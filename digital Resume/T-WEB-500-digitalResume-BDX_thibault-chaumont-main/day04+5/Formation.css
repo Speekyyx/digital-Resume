@@ -1,0 +1,45 @@
+
+body {
+    background-color: #EEEEEE;
+    font-family: 'Courier New', Courier, monospace;
+}
+#Formation h1{
+    color : #00ADB5;
+    font-size: 50px;
+}
+.nav-link{
+    color: #00ADB5 !important;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}
+.card-container {
+    perspective: 1000px;
+}
+
+.card {
+    border: 2px solid black !important; 
+    border-radius: 50px !important; 
+    overflow: hidden; 
+    opacity: 0.8; 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.card:hover {
+    transform: scale(1.1);
+    opacity: 1; 
+}
+
+.card-body, .card-text, .card-title {
+    background-color: white;
+}
+
+/* Personnalisation spécifique pour les cartes */
+.card-middle {
+    transform: scale(1.2); 
+    opacity: 1; 
+    z-index: 1; 
+}
+

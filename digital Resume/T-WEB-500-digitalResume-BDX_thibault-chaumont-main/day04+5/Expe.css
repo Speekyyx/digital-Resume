@@ -1,0 +1,38 @@
+body {
+    background-color: #EEEEEE;
+    font-family: 'Courier New', Courier, monospace;
+}
+#text-formation{
+    color : #00ADB5;
+    font-size: 50px;
+}
+.nav-link {
+    color: #00ADB5 !important;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}
+.card1{
+    margin-right: 40%;  /* ou l'espace que vous voulez */
+}
+.card2{
+    margin-left: 50%;
+}
+.card3{
+    margin-right: 40%;
+}
+.card-container {
+    margin-top: 150px !important; /* Ajustez la valeur selon la hauteur de votre en-tête */
+    border-radius: 50% !important;
+}
+.card img {
+    padding: 10px; /* Ajustez la valeur selon vos besoins */
+}
+.card {
+    border: 2px solid black !important; 
+    border-radius: 50px !important; 
+    overflow: hidden; 
+
+}

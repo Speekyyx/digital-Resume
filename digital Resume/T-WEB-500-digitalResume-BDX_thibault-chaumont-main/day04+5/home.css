@@ -1,0 +1,16 @@
+body {
+    background-color: #EEEEEE;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-link {
+    color: #00ADB5 !important;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}
+section{
+    margin-top: 0; /* Ajustez selon vos besoins */
+    padding-top: 0; /* Ajustez selon vos besoins */
+}

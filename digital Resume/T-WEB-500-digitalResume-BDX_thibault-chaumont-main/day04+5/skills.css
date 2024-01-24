@@ -1,0 +1,26 @@
+body {
+    background-color: #EEEEEE;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-link {
+    color: #00ADB5 !important;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}
+
+img {
+    margin-right: 50px; /* Ajustez selon vos besoins */
+}
+.img-fluid {
+    max-width: 80px; /* Ajustez à votre préférence */
+    max-height: 80px; /* Ajustez à votre préférence */
+}
+.img-fluid-js {
+    max-width: 80px; /* Ajustez à votre préférence */
+    max-height: 80px; /* Ajustez à votre préférence */
+    margin-left: 70px;
+}
+
